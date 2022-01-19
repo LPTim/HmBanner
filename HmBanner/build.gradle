@@ -7,7 +7,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "me.yokeyword.myapplication"
+        applicationId "com.loocan.hmbanner"
         minSdk 21
         targetSdk 31
         versionCode 1
@@ -40,6 +40,4 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-    implementation 'com.github.LPTim:HmBanner:1.0'
 }
